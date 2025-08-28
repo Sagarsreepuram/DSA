@@ -43,3 +43,32 @@ public class Gcd {
 // If no number divides both (edge case), return 1.
 
 // Keyword to remember: "Start from min(a,b) and find the largest number dividing both."
+
+
+
+// GCD with Euclid’s Algorithm
+
+// 🔑 Steps (as in your image)
+// Find the larger number
+// Replace the larger number by the difference between larger and smaller
+// Repeat until both numbers become equal
+// That number is the GCD
+
+
+// public class Gcd{
+//     public static int gcd(int a, int b) {
+//         while (a != b) {
+//             if (a > b) {
+//                 a = a - b;  // replace larger number
+//             } else {
+//                 b = b - a;
+//             }
+//         }
+//         return a; // or b, since both are equal
+//     }
+
+//     public static void main(String[] args) {
+//         int a = 15, b = 25;
+//         System.out.println("GCD of " + a + " and " + b + " = " + gcd(a, b));
+//     }
+// }
