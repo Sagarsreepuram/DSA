@@ -27,7 +27,7 @@ class Main {
 // Steps to solve:
 // If n <= 1 → Not a prime.
 // Otherwise, check divisibility:
-// Run a loop from 2 to √n.
+// Run a loop from 2 to √n. / n/2
 // If any i divides n (n % i == 0) → Not a prime.
 // If no divisor is found → Prime.
 // Why √n?
