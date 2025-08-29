@@ -13,7 +13,7 @@ import java.util.*;
 public class RangePrime {
     static boolean IsPrime(int n) {
         if (n <= 1) return false;   // 0 and 1 are not prime
-        for (int i = 2; i * i <= n; i++) {  // check till sqrt(n)
+        for (int i = 2; i*i <= n; i++) {  // check till sqrt(n). to represent sqrt(n) = i*i = n and also we can also do n/2
             if (n % i == 0) {
                 return false;
             }
