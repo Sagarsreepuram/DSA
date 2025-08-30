@@ -22,7 +22,7 @@
 // false
 
 
-package Array;
+
 
 public class sortedarray {
     public static void main(String[] args) {
